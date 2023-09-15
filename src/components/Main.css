@@ -1,0 +1,62 @@
+.main {
+    width: 100%;
+    margin-top: 80px;
+    height: 900px;
+    display: flex;
+}
+
+.main--left {
+    height: 100%;
+    width: 60%; 
+}
+
+.main--left--tagtext {
+    text-align: justify;
+    margin-left: 4%;
+    width: 44%;
+}
+
+.main--left--title {
+    margin-left: 4%;
+}
+
+.main--left--content {
+    width: 100%;
+    border: solid 0.4px;
+    height: 460px;
+}
+
+.main--right {
+    height: 100%;
+    width: 40%;
+    background-image: url('/public/Rectangle 2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: end;
+    color: rgb(255, 246, 246);
+    font-weight: bold;
+    letter-spacing: 8px;
+    font-size: 72px;
+    text-overflow: ellipsis;
+    padding-left: 8px;
+}
+
+@media (max-width: 600px) {
+    
+    .main {
+        margin-top: 190px;
+        flex-direction: column;
+    }
+
+    .main--left {
+        height: 60%;
+        width: 100%;
+    }
+    
+    .main--right {
+        height: 40%;
+        width: 100%;
+    }    
+}
