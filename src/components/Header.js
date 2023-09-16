@@ -10,13 +10,16 @@ const Header = () => {
             </h1>
 
             <div className='header--right'>
-                <button className='header--signup'>
-                    Sign Up    
-                </button>
-
-                <button className='header--login'>
-                    Log In    
-                </button>
+                <a href='https://dictionary.cambridge.org/dictionary/english/sign-up' target='_blank' rel='noopener noreferrer'>
+                    <button className='header--signup'>
+                        Sign Up    
+                    </button>
+                </a>
+                <a href='https://dictionary.cambridge.org/dictionary/english/log-in' target='_blank' rel='noopener noreferrer' >
+                    <button className='header--login'>
+                        Log In    
+                    </button>
+                </a>
             </div>
         </header>
     )

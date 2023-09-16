@@ -1,0 +1,37 @@
+.sheet {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.sheet--picture {
+    height: 200px;
+    width: 200px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.sheet--title {
+    width: 100%;
+    white-space: normal;
+}
+
+.sheet--ratingsdiv {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sheet--rating {
+    font-weight: 900;
+}
+
+.sheet--noratings {
+    font-size: small;
+    align-self: center;
+}
+
+.sheet--price {
+    font-size: smaller;
+    margin-top: 8px;
+    align-self: center;
+}

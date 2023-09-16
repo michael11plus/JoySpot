@@ -1,0 +1,77 @@
+const experienceData = [
+    {
+      picture: "./sunset.jpg",
+      title: "A Thrilling Adventure in the Heart of the Himalaya Mountains",
+      location: "Himalayas, Nepal",
+      rating: "4.8",
+      noratings: "152",
+      price: "$299",
+    },
+    {
+      picture: "./Rectangle 1.png",
+      title: "Yoga Bliss: A Serene Retreat on Bali's Beachfront",
+      location: "Bali, Indonesia",
+      rating: "4.9",
+      noratings: "98",
+      price: "$799",
+    },
+    {
+      picture: "./french.png",
+      title: "Parisian Delights: A Gourmet Food Tour Extravaganza",
+      location: "Paris, France",
+      rating: "4.7",
+      noratings: "231",
+      price: "$149",
+    },
+    {
+      picture: "./diving.png",
+      title: "Beneath the Waves: An Unforgettable Scuba Diving Experience",
+      location: "Baga Beach, India",
+      rating: "4.6",
+      noratings: "187",
+      price: "$399",
+    },
+    {
+      picture: "./desert.png",
+      title: "Sahara Spectacle: Exploring the Wilds of the Desert Plains",
+      location: "Taoudeni, Mali",
+      rating: "4.9",
+      noratings: "215",
+      price: "$599",
+    },
+    {
+      picture: "./kyoto.png",
+      title: "Kyoto Unveiled: A Deep Dive into Historical Japanese Culture",
+      location: "Kyoto, Japan",
+      rating: "4.8",
+      noratings: "123",
+      price: "$249",
+    },
+    {
+      picture: "./rafting.png",
+      title: "Rush of the Rapids: Whitewater Rafting on the Yangtze River",
+      location: "Yangtze, China",
+      rating: "4.7",
+      noratings: "175",
+      price: "$179",
+    },
+    {
+      picture: "./lights.png",
+      title: "Aurora Adventure: Chasing the Northern Lights in Tromsø",
+      location: "Tromsø, Norway",
+      rating: "4.9",
+      noratings: "142",
+      price: "$499",
+    },
+    {
+      picture: "./tuscany.png",
+      title: "Tuscan Temptations: Wine, Cheese, and Pastry Delights Await",
+      location: "Tuscany, Italy",
+      rating: "4.8",
+      noratings: "189",
+      price: "$289",
+    },
+  ];
+  
+  export default experienceData;
+  

@@ -1,35 +1,51 @@
 .main {
     width: 100%;
     margin-top: 80px;
-    height: 900px;
+    height: auto;
     display: flex;
 }
 
 .main--left {
     height: 100%;
-    width: 60%; 
+    width: 60%;
+    color: #4b4a4a;
 }
 
 .main--left--tagtext {
     text-align: justify;
     margin-left: 4%;
-    width: 44%;
+    margin-top: 4%;
+    width: 100%;
 }
 
 .main--left--title {
     margin-left: 4%;
 }
 
-.main--left--content {
+.main--left--content-container {
     width: 100%;
-    border: solid 0.4px;
-    height: 460px;
+    overflow-x: hidden;
+    white-space: nowrap; 
+  }
+
+.main--left--content::-webkit-scrollbar {
+    display: none;
+  }
+  
+.main--left--content {
+    width: 96%;
+    height: 470px;
+    margin-left: 4%;
+    display: inline-flex;
+    gap: 24px;
+    overflow-x: auto;
+    white-space: nowrap;
 }
 
 .main--right {
-    height: 100%;
     width: 40%;
-    background-image: url('/public/Rectangle 2.jpg');
+    height: calc(100vh - 80px);
+    background-image: url('/public/mountains.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -39,14 +55,13 @@
     font-weight: bold;
     letter-spacing: 8px;
     font-size: 72px;
-    text-overflow: ellipsis;
     padding-left: 8px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1200px) {
     
     .main {
-        margin-top: 190px;
+        margin-top: 220px;
         flex-direction: column;
     }
 
@@ -56,7 +71,11 @@
     }
     
     .main--right {
-        height: 40%;
-        width: 100%;
+        display: none;
     }    
+
+    .main--left--tagtext {
+        padding-top: 24px;
+        width: 96%;
+    }
 }
