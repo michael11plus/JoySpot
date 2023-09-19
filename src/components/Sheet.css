@@ -2,6 +2,19 @@
     display: flex;
     flex-direction: column;
     width: 200px;
+    position: relative;
+}
+
+.sheet--tag {
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    background-color: antiquewhite;
+    border-radius: 4px;
+    padding: 4px;
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 0.8px;
 }
 
 .sheet--picture {
@@ -9,6 +22,7 @@
     width: 200px;
     border-radius: 8px;
     object-fit: cover;
+    cursor: pointer;
 }
 
 .sheet--title {

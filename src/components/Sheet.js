@@ -1,25 +1,26 @@
 import './Sheet.css';
 
-export default function Series( { picture, title, location, rating, noratings, price }) {
+export default function Sheet(props) {
     return(
         <div className='sheet'>
-            <img src={picture} alt="experience image" className='sheet--picture'/>
+            {props.rating === "5" && <div className='sheet--tag'>EXCLUSIVE</div>}
+            <img src={props.picture} alt="experience image" className='sheet--picture'/>
             <p className='sheet--title'>
-                {title}
+                {props.title}
             </p>
             <h5 className='sheet--location'>
-                • {" " + location}
+                • {" " + props.location}
             </h5>
             <div className='sheet--ratingsdiv'>
                 <span className='sheet--rating'>
-                 ☆ {rating}
+                 ☆ {props.rating}
                 </span>
                 <span className='sheet--noratings'>
-                 {noratings} 𖠋
+                 {props.noratings} 𖠋
                 </span>
             </div>
             <span className='sheet--price'>
-                at <b>{price}</b> / person
+                at <b>{props.price}</b> / person
             </span>
         </div>
     )

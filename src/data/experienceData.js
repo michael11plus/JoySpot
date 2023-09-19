@@ -11,7 +11,7 @@ const experienceData = [
       picture: "./Rectangle 1.png",
       title: "Yoga Bliss: A Serene Retreat on Bali's Beachfront",
       location: "Bali, Indonesia",
-      rating: "4.9",
+      rating: "5",
       noratings: "98",
       price: "$799",
     },
@@ -27,7 +27,7 @@ const experienceData = [
       picture: "./diving.png",
       title: "Beneath the Waves: An Unforgettable Scuba Diving Experience",
       location: "Baga Beach, India",
-      rating: "4.6",
+      rating: "5",
       noratings: "187",
       price: "$399",
     },
@@ -43,7 +43,7 @@ const experienceData = [
       picture: "./kyoto.png",
       title: "Kyoto Unveiled: A Deep Dive into Historical Japanese Culture",
       location: "Kyoto, Japan",
-      rating: "4.8",
+      rating: "5",
       noratings: "123",
       price: "$249",
     },
@@ -62,6 +62,7 @@ const experienceData = [
       rating: "4.9",
       noratings: "142",
       price: "$499",
+      spots: "0",
     },
     {
       picture: "./tuscany.png",
@@ -70,6 +71,7 @@ const experienceData = [
       rating: "4.8",
       noratings: "189",
       price: "$289",
+      spots: "1",
     },
   ];
   
